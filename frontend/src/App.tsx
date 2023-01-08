@@ -1,9 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-const App = () => {
+import { BrowserRouter } from "react-router-dom"
+import AppRoutes from "./AppRoutes"
 
+const App = () => {
   return (
-    <div> Hello World </div>
+    <>
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+    </>
   )
 }
 

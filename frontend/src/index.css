@@ -1,1 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans');
+:root {
 
+    margin: 0;
+
+    /* Colors */
+    --pink: #DEBACE;
+    --light-violet: #BA94D1;
+    --violet: #a96bcfec;
+    --dark-violet: #3E1468;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    color: var(--dark-violet);
+    background-color: var(--pink);
+
+
+    /* Font */
+    font-family:  'Josefin Sans', cursive;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+* {
+    margin: 0;
+}
